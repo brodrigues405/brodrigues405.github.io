@@ -2608,7 +2608,7 @@ footer a, footer a:visited {
 	color: #FFFFFF;
 }
 footer a:hover, footer a:focus {
-	color: #FF0077;
+	color: #000080;
 }
 footer .row {
 	max-width: 900px;
