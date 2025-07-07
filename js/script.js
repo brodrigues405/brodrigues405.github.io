@@ -48,3 +48,16 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(section);
     });
 });
+
+// Back to top button logic
+document.addEventListener('DOMContentLoaded', () => {
+    const backToTopButton = document.querySelector('.back-to-top-btn');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) { // Show button after scrolling 300px
+            backToTopButton.classList.add('show');
+        } else {
+            backToTopButton.classList.remove('show');
+        }
+    });
+});
